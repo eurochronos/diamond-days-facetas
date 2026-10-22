@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1d3c33"><meta name="robots" content="noindex,nofollow">
+<title>Diamond Days · Cada faceta de ti</title>
+<meta name="description" content="Descubre tu faceta. Una experiencia de Diamond Days en Eurochronos.">
+<link rel="preload" href="assets/key-visual.png" as="image"><link rel="stylesheet" href="styles.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<main id="experience">
+  <section id="welcome" class="screen welcome" aria-labelledby="welcome-title">
+    <div class="kv-wrap"><img class="kv" src="assets/key-visual.png" alt="Eurochronos. Diamond Days. Cada faceta de ti." width="1080" height="1350" fetchpriority="high"><span class="kv-light" aria-hidden="true"></span></div>
+    <div class="welcome-copy"><p class="eyebrow">Una experiencia para descubrirte</p><h1 id="welcome-title">Hay una faceta<br>que habla de ti.</h1><button id="start" class="primary" disabled><span id="start-label">Preparando tu experiencia…</span><span aria-hidden="true">↗</span></button><p class="footnote">Ten a mano tu tarjeta.</p><p id="asset-error" class="error" role="alert" hidden></p><button id="retry-assets" class="text-button" hidden>Reintentar</button></div>
+  </section>
+  <section id="selection" class="screen selection" aria-labelledby="selection-title" hidden>
+    <div class="brand"><img src="assets/eurochronos.png" alt="Eurochronos"></div>
+    <p class="campaign">DIAMOND DAYS</p><p class="script">Cada faceta de ti</p>
+    <div class="selection-intro"><p class="eyebrow">El inicio de tu experiencia</p><h1 id="selection-title" tabindex="-1">¿Cuál es tu faceta?</h1><p>Toca el corte que aparece en tu tarjeta.</p></div>
+    <div id="facet-grid" class="facet-grid" aria-label="Selecciona tu faceta"></div>
+    <button id="home" class="text-button">Volver al inicio</button>
+  </section>
+  <section id="discovery" class="screen discovery" aria-labelledby="discovery-title" hidden>
+    <div class="brand"><img src="assets/eurochronos.png" alt="Eurochronos"></div>
+    <p class="campaign">DIAMOND DAYS</p><p class="script">Cada faceta de ti</p>
+    <div class="discovery-stage" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div id="discovery-gem" class="gem discovery-gem"></div><span class="glint glint-one">✦</span><span class="glint glint-two">✦</span><span class="glint glint-three">✦</span></div>
+    <p class="eyebrow">Cada corte, una forma de ser</p><h1 id="discovery-title" tabindex="-1"></h1><p id="discovery-status" role="status">Un momento para descubrir tu faceta…</p><div class="progress" aria-hidden="true"><span></span></div>
+  </section>
+  <section id="result" class="screen result" aria-labelledby="result-title" hidden>
+    <div class="brand"><img src="assets/eurochronos.png" alt="Eurochronos"></div>
+    <p class="campaign">DIAMOND DAYS</p><p class="script">Cada faceta de ti</p>
+    <div class="result-jewel"><div id="result-gem" class="gem"></div><span class="result-glint" aria-hidden="true">✦</span></div>
+    <p class="eyebrow" id="result-trait"></p><h1 id="result-title" tabindex="-1"></h1><p id="meaning" class="meaning"></p>
+    <div id="gift" class="gift" aria-label="Tu gift card"><div class="gift-line" aria-hidden="true"></div><p class="eyebrow">Un regalo para ti</p><p class="gift-label">GIFT CARD</p><p id="discount" class="discount"></p><p class="gift-caption">Para celebrar cada faceta de ti.</p><div class="gift-line" aria-hidden="true"></div></div>
+    <div id="result-actions" class="result-actions"><p>Comparte este resultado con nuestra anfitriona.</p><button id="restart" class="primary">Nueva experiencia <span aria-hidden="true">↗</span></button></div>
+  </section>
+  <noscript>Activa JavaScript en el navegador para vivir esta experiencia.</noscript>
+</main>
+</body></html>
